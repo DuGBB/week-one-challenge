@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header { /* deleted the period to fix element header*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: white;
+}
+
+/* added semantic elements header and nav in the html,
+   then reworked the headers css for the next 5 statements. */ 
+header h1 { /* deleted the period to fix element header*/
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header h1 a span { /* changed the color of the seo in Horiseon/title*/
+    color: rgb(197, 209, 212);
+}
+
+header a { /* added header element to specify location*/
+    text-decoration: none;
+    color: white;
+}
+
+header nav { /*added to align header*/
+    float: right;
+    margin: 8px 0;
+}
+
+.keys { /* added class name in header*/
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: auto;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: 100% 100%; /* changed to percentages to improve load time. */
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.column-float-left { /* added class to place column to the left */
+    float: left;
+    width: 75%;/* these do not add up to 100% because then we don't have a blank space between table elements */
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 3px;
+
+}
+
+.column-float-right { /* added class to place column to the right of page */
+    float:right;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 0;
+    width:20%; /* these do not add up to 100% because then we don't have a blank space between table elements */
+}
+
+
+.benefits { /* did away with redundent instructions */
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    float: right;
+    padding: 20px;
+}
+
+/* combined benefit-lead h3, benefit-brand h3, and benefit-cost h3. */
+.benefit-img h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-img { /* combined benefit-lead, benefit-brand, benefit-cost. */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-img p { /* added to align the text in the left column */
+    text-align: left;
+}
+
+.pngben { /* added to size icons in left column */
+    width: 64%;
+    height: 64%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-img { /* combined search-engine-optimization, online-reputation-management, and social-media-marketing under class hero-img. */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    float: left;
+}
+
+img { /*( combined search-engine-optimization img, online-reputation-management img, and social-media-marketing img. */
+    max-height: 200px;
+}
+
+section h2 {  /* combined the h2's from previous consolidation. */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer { /* deleted period to fix element */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 { /* deleted period to fix element */
+    font-size: 20px;
+}
