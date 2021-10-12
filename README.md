@@ -13,3 +13,4 @@ I did this by:
 - consolidating CSS styl definitions where applicable
 
 # How to run
+To view, open this link in the browser of your choice:  https://dugbb.github.io/week-one-challenge/
